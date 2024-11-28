@@ -1,0 +1,102 @@
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image styling */
+#img img, .extra-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.caption {
+  display: block;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Main content area */
+#main {
+  padding: 20px;
+  text-align: center;
+}
+
+#tribute-data {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #img img, .extra-image {
+    width: 80%;
+  }
+
+  #tribute-data {
+    padding: 10px;
+  }
+
+  footer ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
